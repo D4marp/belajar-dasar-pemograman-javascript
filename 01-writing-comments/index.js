@@ -1,5 +1,4 @@
-//  Damar Galih Aji Pradana
-
+//  d4marg4lih
 /*
  * Goal tahun ini:
  * 1. Belajar JavaScript.
