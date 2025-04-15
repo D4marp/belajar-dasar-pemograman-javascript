@@ -1,5 +1,3 @@
-// 02-code-style/index.js
-//Perbaikan 
 const books = {};
 
 function getBooks() {
@@ -7,6 +5,7 @@ function getBooks() {
 }
 
 function getBookById(id) {
+  // Variabel book menggunakan const karena tidak ada modifikasi.
   const book = books[id];
 
   if (!book) {
@@ -20,9 +19,12 @@ function saveBook(book) {
   books[book.id] = book;
 }
 
-saveBook({ id: 'book-1', name: 'Book 1' });
+saveBook({ id: "book-1", name: "Book 1" });
+// Variabel myBooks menggunakan const karena tidak ada modifikasi.
 const myBooks = getBooks();
-const myBook = getBookById('book-1');
+
+// Variabel myBook menggunakan const karena tidak ada modifikasi.
+const myBook = getBookById("book-1");
 
 console.log(myBooks);
 console.log(myBook);

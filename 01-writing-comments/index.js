@@ -1,6 +1,7 @@
 //  Damar Galih Aji Pradana
+
 /*
-Goal tahun ini:
-1. Belajar JavaScript.
-2. Menjadi Front-End atau Back-End Developer.
-*/
+ * Goal tahun ini:
+ * 1. Belajar JavaScript.
+ * 2. Menjadi Front-End atau Back-End Developer.
+ */
